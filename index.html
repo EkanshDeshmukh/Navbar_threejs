@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    img{
+      opacity: 0;
+    }
+    .app canvas{
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="app w-full h-screen flex items-center justify-between bg-zinc-900 text-white font-[gilroy]">
+    <div class="canvas w-1/2 h-screen relative">
+      <a class="text-2xl opacity-55 text-white-500 font-black font-base fixed top-10 right-10" href="">X</a>
+      <div class="images w-[25vw] h-[32vw] absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
+        <img class="absolute  w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZWxzfGVufDB8fDB8fHww"
+          alt="">
+        <img class="absolute w-full h-full object-cover"
+          src="https://plus.unsplash.com/premium_photo-1664267832256-176e55ccafd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bW9kZWxzfGVufDB8fDB8fHww"
+          alt="">
+        <img class="absolute w-full h-full object-cover"
+          src="https://plus.unsplash.com/premium_photo-1715876268461-7d85ee7b1452?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D"
+          alt="">
+        <img class="absolute w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1622396636133-ba43f812bc35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vZGVsc3xlbnwwfHwwfHx8MA%3D%3D"
+          alt="">
+      </div>
+    </div>
+    <div class="w-1/2 h-screen flex items-center justify-center">
+      <div class="links flex flex-col gap-10">
+        <a class="lowercase translate-all hover:ml-5 opacity-30 hover:opacity-100 block -tracking-tighter text-6xl"
+          href="">
+          <small class="text-xl tracking-normal">01.</small>
+          Bello spettacolo
+        </a>
+        <a class="lowercase translate-all hover:ml-5 opacity-30 hover:opacity-100 block -tracking-tighter text-6xl"
+          href="">
+          <small class="text-xl tracking-normal">02.</small>
+          UNTOLD STORY
+        </a>
+        <a class="lowercase translate-all hover:ml-5 opacity-30 hover:opacity-100 block -tracking-tighter text-6xl"
+          href="">
+          <small class="text-xl tracking-normal">03.</small>
+          Bollywood Movie
+        </a>
+        <a class="lowercase translate-all hover:ml-5 opacity-30 hover:opacity-100 block -tracking-tighter text-6xl"
+          href="">
+          <small class="text-xl tracking-normal">04.</small>
+          Full Video Song
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
